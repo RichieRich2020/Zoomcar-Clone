@@ -6,137 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book your Car</title>
 
-
+    <link rel="stylesheet" href="booking.css">
 
 
     <style>
-
-          #container {
-            text-align: justify;
-            width: 45%;
-            margin-left: 27.5%;
-          }
-
-          #no1 {
-            display: flex;
-            gap: 15px;
-            align-items: center;
-          }
-          #no2 {
-            display: flex;
-            gap: 15px;
-          }
-
-          #no2 > div > img {
-            padding-top: 15px;
-          }
-            
-          #no2 > div > p {
-            
-            color:  rgb(168, 168, 168);
-            font-size:smaller;
-          }
-          #recomm {            
-            color:  #10a310;
-          }
-
-          #no3 {
-            display: flex;
-            gap: 15px;
-          }
-
-          #no3 > div > img {
-            padding-top: 15px;
-          }
-            
-          #no3 > div > p {
-            
-            color:  rgb(168, 168, 168);
-            font-size:smaller;
-          }
-
-          #no4 {
-            background-color: rgb(245,245,245);
-          }
-
-          #no4 > p {
-            margin-left: 10px;
-          }
-          
-          #box {  
-            font-size:smaller;
-            height: 90px;
-            width: 95%;
-            margin-left: 10px;;
-          
-          }
-           
-          #num1 {
-            display: flex;
-            gap: 15px;
-            align-items: center;
-          }
-
-          #num2 {
-            display: flex;
-            gap: 15px;
-          }
-          #num3 {
-            display: flex;
-            gap: 15px;
-          }
-          #num4 {
-            display: flex;
-            gap: 15px;
-          }
-
-           a {
-            color:  #10a310;
-           }
-           
-           button{
-               width: 100%;
-               background-color: #10a310;
-               height: 50px;
-               border: none;
-               color: white;
-               font-size: large;
-               font-weight: bold;
-               border-radius: 10px;
-              margin-bottom: 20px; 
-              cursor: pointer;
-           }
-           button:hover {
-               background-color: green;
-           }
-
-          
-           #footer {
-            display: flex;
-            justify-content:space-between;
-            margin-bottom: 10px;
-            width: 97%;
-
-           }
-
-           #num2 > div > img {
-            margin-top: 15px;
-           }
-           #num3 > div > img {
-            margin-top: 15px;
-           }
-           #num4 > div > img {
-            margin-top: 15px;
-           
-           }
-           #disc {
-            margin-top: 15px;
-           }
-           #chbox {
-             margin-top: 25px;
-             /* margin-right: 5%; */
-           }
-
 
 
     </style>
@@ -146,7 +19,9 @@
 
 
 
-<body>
+<body>      
+              
+                  
         <div class="content" >  
 
            <a href="cart.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Feather-arrows-arrow-left.svg/768px-Feather-arrows-arrow-left.svg.png" width="35px" height="35px"alt=""></a>
@@ -155,6 +30,12 @@
 
     <div id="container">
         <!-- <center>        -->
+
+
+            <div id="details">
+                   <!-- append your vehicle checkout summary -->
+                 
+            </div>
 
                    <h4>Other Charges</h4>
                    <div id="no1">
@@ -272,7 +153,7 @@
                   <div id="disc"  style="color: lightslategray;"> <a style="text-decoration: none;" href="">Apply Coupan</a></div>
             </div>
                     
-                         <button>Proceed to Checkout</button>
+                         <button id="btn">Proceed to Checkout</button>
                 
         
    
@@ -282,3 +163,5 @@
 </body>
 
 </html>
+
+<script src="booking.js"></script>
