@@ -1,0 +1,243 @@
+/** @format */
+
+.kl > span > div > img {
+  width: 40px;
+}
+.kl > span > div {
+  text-align: center;
+  width: 70px;
+  padding: 15px 0px 30px 15px;
+  /* border: 2px solid black; */
+}
+.kl {
+  display: flex;
+  height: 55px;
+  /* padding: 15px; */
+  padding: 20px 15px 10px 0px;
+}
+/* .kl,
+.op {
+  border-bottom: 1px solid #e0e0e0;
+} */
+
+.te {
+  font-family: 'IBM Plex Sans';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+  color: #666;
+
+  /* text-align: start; */
+  padding-left: 8px;
+  padding: 0px 15px 0px 8px;
+}
+.det {
+  height: 60px;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+body {
+  /* margin-top: 170px; */
+  margin-left: 530px;
+  margin-right: 350px;
+}
+/** @format */
+
+.kl {
+  display: flex;
+  height: 55px;
+  /* padding: 15px; */
+  /* padding: 30px 15px 10px 30px; */
+}
+
+.op {
+  /* height: 45px; */
+  align-items: center;
+  padding: 10px;
+}
+/* .opp {
+      padding: 20px;
+    } */
+body {
+  margin-top: 10px;
+  margin-left: 440px;
+  margin-right: 350px;
+}
+.ui {
+  width: 410px;
+}
+.kl > span > div > img {
+  width: 35px;
+}
+.kl > span > div {
+  text-align: center;
+  width: 90px;
+
+  /* border: 2px solid black; */
+}
+.login-container,
+.heading {
+  font-family: 'IBM Plex Sans';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #1f1f1f;
+  padding: 16px 0 16px 0;
+}
+.text {
+  font-family: 'IBM Plex Sans';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+  /* color: #666; */
+  border-left: 1px solid #e0e0e0;
+  padding-left: 8px;
+  text-decoration: none;
+}
+.te {
+  font-family: 'IBM Plex Sans';
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+  /* color: #666; */
+
+  /* text-align: start; */
+  font-family: 'IBM Plex Sans';
+  font-size: 20px;
+
+  padding-left: 8px;
+  padding-bottom: -20px;
+}
+.L {
+  font-family: 'IBM Plex Sans';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #10a310;
+  /* padding: 16px 0; */
+  /* padding: 0px 12px 0px 0px; */
+  color: #10a310;
+}
+.opp {
+  display: flex;
+
+  align-items: center;
+  padding: 10px;
+}
+.det {
+  height: 62px;
+  border: 2px solid green;
+  border-radius: 4px;
+}
+.main {
+  width: 560px;
+  /* border: 2px black solid; */
+}
+.okm {
+  width: 400px;
+  height: 59px;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+  -moz-appearance: textfield;
+  font-family: 'IBM Plex Sans';
+  font-size: 20px;
+  color: #666;
+  padding-left: 12px;
+}
+.okmm {
+  width: 490px;
+  height: 45px;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+  -moz-appearance: textfield;
+  font-family: 'IBM Plex Sans';
+  font-size: 20px;
+  color: #666;
+  /* padding: 12px; */
+  padding-left: 12px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+  outline: none !important;
+  border: 2px solid green;
+  /* box-shadow: 0 0 10px #719ece; */
+}
+.emp {
+  width: 100%;
+  /* width: ; */
+}
+.fk {
+  font-family: 'Poppins', sans-serif;
+  font: bolder;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.s {
+  margin-bottom: 20px;
+}
+/* input:hover {
+  border: 2px solid green;
+} */
+/* #asd { */
+/* border: 2px solid green;
+}
+.okkl {
+  border: 2px solid green;
+} */
+.awd {
+  /* margin-top: 30px; */
+  /* margin-bottom: 30px; */
+  /* border: 2px solid black; */
+  margin-top: 2px;
+  padding-top: 90px;
+}
+.empty {
+  width: 300px;
+  height: 540px;
+  margin: auto;
+  justify-content: center;
+  /* border: 2px solid black;  */
+}
+.ik > div {
+  text-align: center;
+}
+.bubu,
+button {
+  /* margin: auto; */
+  width: 470px;
+  height: 50px;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  /* background-color: rgb(224, 224, 224); */
+  /* color:white; */
+
+  background-color: rgb(8, 163, 17);
+
+  /* justify-content: center; */
+}
+.kol {
+  color: red;
+  text-align: center;
+}
+.kolll {
+  /* margin-left: 300px; */
+  margin-top: 20px;
+}
+/* .ijn {
+  height: 20px;
+  border: 2px solid black;
+} */
+.material-symbols-outlined:hover {
+  cursor: pointer;
+}

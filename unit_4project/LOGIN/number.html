@@ -1,0 +1,110 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,100,0,-25" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,-25" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style_number.css" />
+  </head>
+  <body>
+    <div class="s"><span class="material-symbols-outlined"> west </span></div>
+    <div class="main">
+      <div class="fk">Enter Mobile Number</div>
+      <div class="kl">
+        <span class="det">
+          <div class="awd" style="display: flex">
+            <img
+              src="https://zoomcar-assets.zoomcar.com/images/original/38ff9c58fe221677b6e8958c1caba43d35710fe2.png?1654779648"
+              alt="" />
+            <div style="margin-bottom: -30px"><span class="te">+91</span></div>
+          </div>
+        </span>
+        <div class="emp"><span></span></div>
+        <div>
+          <input
+            class="okm"
+            type="number"
+            inputmode="numeric"
+            placeholder="Mobile Number"
+            form-textarea />
+        </div>
+      </div>
+      <div class="empty">
+        <div class="ijn"></div>
+      </div>
+      <div class="ik">
+        <div>
+          <button>CONTINUE</button>
+        </div>
+      </div>
+      <a href=""></a>
+    </div>
+  </body>
+</html>
+<script>
+  document.querySelector('button').addEventListener('click', Mu);
+  document
+    .querySelector('.material-symbols-outlined')
+    .addEventListener('click', MMu);
+  function Mu() {
+    var okm = +document.querySelector('.okm').value;
+    if (okm > 1000000000 && okm < 10000000000) {
+      // alert(
+      //   'The mobile number ' +
+      //     '+91' +
+      //     okm +
+      //     ' has been registered with us. Lets create a new account.'
+      // );
+      // document.querySelector('button').addEventListener('click', MWu);
+      // function MWu() {
+      // document.querySelector('.empty').innerText = '';
+      // var hj = document.querySelector('.empty');
+      // var inp = document.createElement('input');
+      // inp.setAttribute('placeholder', 'Email');
+      // inp.setAttribute('type', 'text');
+      // //   document.querySelector('button').addEventListener('click', Muu);
+
+      // inp.setAttribute('class', 'kolll');
+
+      // hj.append(inp);
+      // var a = document.createElement('a');
+      // a.setAttribute('href', 'number@2.html');
+      // var hj = document.querySelector('.empty');
+      // // var p = document.createElement('p');
+      // a.innerText = 'reasigter';
+      // hj.append(a);
+      window.open('email@2.html', '_blank');
+    } else {
+      document.querySelector('.empty').innerText = '';
+
+      var hj = document.querySelector('.empty');
+      var p = document.createElement('p');
+      p.setAttribute('class', 'kol');
+      p.innerText = 'Enter a valid mobile number';
+
+      hj.append(p);
+    }
+  }
+  function MMu() {
+    window.open('login_page.html', '_blank');
+  }
+</script>
