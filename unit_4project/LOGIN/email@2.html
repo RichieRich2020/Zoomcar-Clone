@@ -28,7 +28,7 @@
   <body>
     <div class="s"><span class="material-symbols-outlined"> west </span></div>
     <div class="main">
-      <div class="fk">Enter Name</div>
+      <div class="fk">Enter Full Name</div>
       <div class="kl">
         <!-- <span class="det">
           <div class="awd" style="display: flex">
@@ -40,10 +40,15 @@
         </span> -->
         <!-- <div class="emp"><span></span></div> -->
         <div>
-          <input class="okmm" type="text" placeholder="Name" form-textarea />
+          <input
+            id="E1"
+            class="okmm"
+            type="text"
+            placeholder="Name"
+            form-textarea />
         </div>
       </div>
-      <div class="fk">Enter Email</div>
+      <div class="fk">Enter Email ID</div>
       <div class="kl">
         <!-- <span class="det">
           <div class="awd" style="display: flex">
@@ -55,7 +60,12 @@
         </span> -->
         <!-- <div class="emp"><span></span></div> -->
         <div>
-          <input class="okmm" type="text" placeholder="Email" form-textarea />
+          <input
+            id="E2"
+            class="okmm"
+            type="text"
+            placeholder="Email"
+            form-textarea />
         </div>
       </div>
       <div class="fk">Password</div>
@@ -71,6 +81,7 @@
         <!-- <div class="emp"><span></span></div> -->
         <div>
           <input
+            id="E3"
             class="okmm"
             type="Password"
             placeholder="Password"
@@ -89,6 +100,7 @@
   </body>
 </html>
 <script>
+  var details = JSON.parse(localStorage.getItem('Alltails')) || [];
   document.querySelector('button').addEventListener('click', Mu);
   //   document.querySelector('button').addEventListener('click', Muu);
   document
@@ -97,8 +109,26 @@
 
   function Mu() {
     // document.querySelector('.empty').innerText = '';
+    var Name = document.querySelector('#E1').value;
+    var Email = document.querySelector('#E2').value;
+    var Password = document.querySelector('#E3').value;
+    if (Name == '') {
+      alert('Please enter your Name');
+    } else if (Email == '') {
+      alert('Please enter your Email');
+    } else if (Password == '') {
+      alert('Please enter your password');
+    } else {
+      var objlogin = details[0];
+      objlogin.Name = Name;
+      objlogin.Email = Email;
+      objlogin.Password = Password;
+      details.splice(0, details.length);
+      details.push(objlogin);
+      localStorage.setItem('Alltails', JSON.stringify(details));
 
-    window.open('login_page.html', '_blank');
+      window.open('login_page.html', '_blank');
+    }
   }
   function MMu() {
     window.open('number.html', '_blank');

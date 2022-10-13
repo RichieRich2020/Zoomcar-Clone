@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="style1.css" />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,100,0,0" />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link
       rel="stylesheet"
@@ -27,8 +30,14 @@
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,100,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
+    <div class="nav"></div>
     <div class="A">
       <div class="B">
         <div class="D">
@@ -38,37 +47,37 @@
         <div class="H">
           <div class="E">Sort By</div>
           <div class="F">
-            <div class="G">
+            <div class="G" id="G1">
               <span class="material-symbols-outlined"> car_repair </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>Relevance</p></span>
             </div>
-            <div class="G">
+            <div class="G" id="G2">
+              <span class="material-symbols-outlined"> pin_drop </span>
+              <span class="small"><p>Low to High</p></span>
+            </div>
+            <div class="G" id="G3">
+              <span class="material-symbols-outlined"> pin_drop </span>
+              <span class="small"><p>High to Low</p></span>
+            </div>
+            <div class="G" id="G4">
+              <span class="material-symbols-outlined"> pin_drop </span>
+              <span class="small"><p>Best rated</p></span>
+            </div>
+            <div class="G" id="G5">
               <span class="material-symbols-outlined"> pin_drop </span>
               <span class="small"><p>Distance</p></span>
             </div>
-            <div class="G">
+            <div class="G" id="G6">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>Car age</p></span>
             </div>
-            <div class="G">
+            <div class="G" id="G7">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>Kms Driven</p></span>
             </div>
-            <div class="G">
+            <div class="G" id="G8">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
-            </div>
-            <div class="G">
-              <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
-            </div>
-            <div class="G">
-              <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
-            </div>
-            <div class="G">
-              <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>Popularity</p></span>
             </div>
           </div>
         </div>
@@ -85,108 +94,515 @@
         <div class="H">
           <div class="E">Car type</div>
           <div class="F">
-            <div class="G">
+            <div class="G" id="G9">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>Hatchback</p></span>
             </div>
-            <div class="G">
+            <div class="G" id="G10">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>Sedan</p></span>
             </div>
-            <div class="G">
+            <div class="G" id="G11">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>SUV</p></span>
             </div>
-            <div class="G">
+            <div
+              class="G"
+              id="G12"
+              style="
+                background-color: rgb(245, 245, 245);
+                color: rgb(178, 178, 178);
+              ">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>Luxury</p></span>
             </div>
           </div>
         </div>
         <div class="H">
           <div class="E">Seats</div>
           <div class="FF">
-            <div class="G">
+            <div
+              class="G"
+              id="G13"
+              style="
+                background-color: rgb(245, 245, 245);
+                color: rgb(178, 178, 178);
+              ">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>4 Seater</p></span>
             </div>
-            <div class="G">
+            <div class="G" id="G14">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>5 Seater</p></span>
             </div>
-            <div class="G">
+            <div class="G" id="G15">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>7 Seater</p></span>
             </div>
           </div>
         </div>
         <div class="H">
           <div class="E">Fuel type</div>
           <div class="F">
-            <div class="G">
+            <div class="G" id="G16">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>Petrol</p></span>
             </div>
-            <div class="G">
+            <div class="G" id="G17">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>Diesel</p></span>
             </div>
-            <div class="G">
+            <div
+              class="G"
+              id="G18"
+              style="
+                background-color: rgb(245, 245, 245);
+                color: rgb(178, 178, 178);
+              ">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>CNG</p></span>
             </div>
-            <div class="G">
+            <div
+              class="G"
+              id="G19"
+              style="
+                background-color: rgb(245, 245, 245);
+                color: rgb(178, 178, 178);
+              ">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>Electric</p></span>
             </div>
           </div>
         </div>
         <div class="H">
           <div class="E">Transmission</div>
           <div class="FFF">
-            <div class="G">
+            <div class="G" id="G20">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>Manual</p></span>
             </div>
-            <div class="G">
+            <div class="G" id="G21">
               <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+              <span class="small"><p>Automatic</p></span>
             </div>
           </div>
         </div>
         <div class="H">
           <div class="E">Ratings</div>
           <div class="FF">
-            <div class="G">
-              <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+            <div class="G" id="G22">
+              <!-- <span class="material-symbols-outlined"> pin_drop </span> -->
+              <span class="small"><p>3+ rated</p></span>
             </div>
-            <div class="G">
-              <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+            <div class="G" id="G23">
+              <!-- <span class="material-symbols-outlined"> pin_drop </span> -->
+              <span class="small"><p>4+ rated</p></span>
             </div>
-            <div class="G">
-              <span class="material-symbols-outlined"> pin_drop </span>
-              <span class="small"><p>Distance</p></span>
+            <div class="G" id="G24">
+              <!-- <span class="material-symbols-outlined"> pin_drop </span> -->
+              <span class="small"><p>All</p></span>
             </div>
           </div>
         </div>
-        <div>
-          <input type="range" name="foo" />
-          <output for="foo" onforminput="value = foo.valueAsNumber;"></output>
-        </div>
+        <div></div>
       </div>
       <div class="C">
-        <div class="K"></div>
-        <div class="L"></div>
+        <div class="K">
+          <div class="DDD"></div>
+          <div class="KKK">
+            <div class="in" id="gh">
+              <img id="io" src="dot.png" alt="" />
+              <div id="l"></div>
+            </div>
+            <div class="in">
+              <div class="de">
+                <label for="">START DATE/TIME</label>
+                <div
+                  id="okl"
+                  style="
+                    font-size: 12px;
+                    color: black;
+                    opacity: 2.19;
+                    font-weight: 500;
+                    margin-top: 4px;
+                  "></div>
+              </div>
+              <!-- <span class="divider"></span> -->
+              <span
+                id="divider"
+                class="material-symbols-outlined"
+                style="margin-top: 10px">
+                east
+              </span>
+
+              <div class="ded" style="justify-content: flex-end">
+                <label for="">END DATE/TIME</label>
+                <div
+                  id="oklp"
+                  style="
+                    font-size: 12px;
+                    color: black;
+                    opacity: 2.19;
+                    font-weight: 500;
+                    margin-top: 4px;
+                  "></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="L">
+          <div id="yuh">
+            <span class="material-symbols-outlined"> savings </span>
+          </div>
+          <div>
+            <div class="h3">Limited Time Offer! Use: ZOOMDAILY</div>
+            <div class="ddie" style="margin-top: 0px">
+              Get FLAT 20% Off on all your daily commute
+            </div>
+          </div>
+        </div>
         <div class="ppp"></div>
-        <div class="L"></div>
+        <div class="LFO">
+          <div id="ij">
+            <div class="h3">Can't Find The Right Car</div>
+            <div class="ddie" style="margin-top: 0px">
+              The car I was looking for isn't listed here
+            </div>
+            <div class="NOT">NOTIFY ME</div>
+            <!-- <div></div> -->
+          </div>
+          <div id="jkl">
+            <img
+              id="p9"
+              src="https://img1.zoomcar.com/images/original/9cb4c0cb2f3656a765db302650c5f867bb31e06a.png?1594715157"
+              alt="" />
+          </div>
+        </div>
       </div>
     </div>
   </body>
 </html>
 
 <script>
+  // display(car);
+  var carArray = JSON.parse(localStorage.getItem('added')) || [];
+  var sa = JSON.parse(localStorage.getItem('add')) || [];
+  console.log(sa);
+  // var l = document.querySelector('#l');
+  // l.append(sa.add);
+  dis(sa);
+  function dis(sa) {
+    sa.map(function (ele, index) {
+      var l = document.querySelector('#l');
+      var la = document.querySelector('#okl');
+      var laa = document.querySelector('#oklp');
+      l.append(ele.add);
+      la.append(ele.datef);
+      laa.append(ele.datet);
+    });
+  }
+  // display(car);
+  // var car1 = [
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/766cddd02ab348157e42994ce7b64bad1c9ee634.png?1663875505',
+  //     name: 'Nissan Magnite XE',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.9 (12)',
+  //     driven: '22,821kms driven',
+  //     age: '10',
+  //     price: '₹3,750',
+  //     type: 'SUV',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/ed9a65d8dc05ef4a910ce081fa6e6ce64e4b3114.png?1663872241',
+  //     name: 'Ford Ecosport ',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.87 (9)',
+  //     driven: '52,677 kms driven',
+  //     age: '12',
+  //     price: '₹4,958',
+  //     type: 'SUV',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/a21d2ba781794d6c3f3e310c6a70b3d7c39cac89.png?1663876143',
+  //     name: 'KIA Sonet ',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.82 (6)',
+  //     driven: '14,844 kms driven',
+  //     age: '12',
+  //     price: '₹5,476',
+  //     type: 'SUV',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/5ef36d2a7a54280f15d4ef1d5af8a3c452838f08.png?1663874575',
+  //     name: 'Renault Triber',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '7 Seats',
+  //     reating: '5.0 (6)',
+  //     driven: '16,578 kms driven',
+  //     age: '12',
+  //     price: '₹3,679',
+  //     type: 'SUV',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/f39bcb1945a5efd3a2462a14dbf39d8d06ceb0aa.png?1663873982',
+  //     name: 'Renault Triber',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '7 Seats',
+  //     reating: '4.79 (65)',
+  //     driven: '39,274 kms driven',
+  //     age: '20',
+  //     price: '₹4,567',
+  //     type: 'SUV',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/a21d2ba781794d6c3f3e310c6a70b3d7c39cac89.png?1663876143',
+  //     name: 'Renault Lodgy ',
+  //     drive: 'Manual',
+  //     fuel: 'Diesel',
+  //     space: '7 Seats',
+  //     reating: '4.69 (24)',
+  //     driven: '54,281 kms driven',
+  //     age: '20',
+  //     price: '₹5,649',
+  //     type: 'SUV',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/2733bd472b2c1cf2964cb9612854abbea8a9aeaa.png?1663874676',
+  //     name: 'RTriber  ',
+  //     drive: 'Manual',
+  //     fuel: 'Diesel',
+  //     space: '5 Seats',
+  //     reating: '4.41 (94)',
+  //     driven: '42,963 kms driven',
+  //     age: '20',
+  //     price: '₹4,560',
+  //     type: 'SUV',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/a21d2ba781794d6c3f3e310c6a70b3d7c39cac89.png?1663876143',
+  //     name: 'Nexon  ',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.76 (49)',
+  //     driven: '73,740 kms driven',
+  //     age: '20',
+  //     price: '₹3,848',
+  //     type: 'SUV',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/42f650b8dee1baef441fef362e4a5efbd5b519a3.png?1663872410',
+  //     name: 'Hyundai Venue ',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.3 (12)',
+  //     driven: '50,000 kms driven',
+  //     age: '20',
+  //     price: '₹4,344',
+  //     type: 'SUV',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/de5b7179ff6bd8d62b40a078345bbdfac5d08140.png?1663874249',
+  //     name: 'Vitara Brezza ',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '5.0 ',
+  //     driven: '368 kms driven',
+  //     age: '20',
+  //     price: '₹4,321',
+  //     type: 'SUV',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/2bfa504fda54519e54871e49ccf7a713c7452d97.png?1663874651',
+  //     name: 'Maruti Dzire ',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.97 (52) ',
+  //     driven: '17,584 kms driven ',
+  //     age: '20',
+  //     price: '₹4,918',
+  //     type: 'Sedan',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/f1850c781ba0aeae715eaa922dc15b4dc3654a09.png?1663874619',
+  //     name: 'Maruti Swift ',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.81 (37) ',
+  //     driven: ' 33,520 kms driven ',
+  //     age: '20',
+  //     price: '₹3,948',
+  //     type: 'Sedan',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/a9da5e1244b4c6f13a062514fdd4d0f42d4570f6.png?1663873287',
+  //     name: 'Honda Amaze ',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.87 (42) ',
+  //     driven: ' 28,010 kms driven',
+  //     age: '20',
+  //     price: '₹4,007',
+  //     type: 'Sedan',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/a9da5e1244b4c6f13a062514fdd4d0f42d4570f6.png?1663873287',
+  //     name: 'Hyundai Xcent',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.87 (64) ',
+  //     driven: '  67,067 kms driven',
+  //     age: '20',
+  //     price: '₹3,254',
+  //     type: 'Sedan',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/f39bcb1945a5efd3a2462a14dbf39d8d06ceb0aa.png?1663873982',
+  //     name: 'Hyundai Elantra',
+  //     drive: 'Manual',
+  //     fuel: 'Diesel',
+  //     space: '5 Seats',
+  //     reating: '4.87 (64) ',
+  //     driven: '  47,783 kms driven',
+  //     age: '20',
+  //     price: '₹5,694',
+  //     type: 'Sedan',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/2bfa504fda54519e54871e49ccf7a713c7452d97.png?1663874651',
+  //     name: 'Maruti Dzire ',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.0 (52) ',
+  //     driven: '17,084 kms driven ',
+  //     age: '20',
+  //     price: '₹3,008',
+  //     type: 'Sedan',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/42f650b8dee1baef441fef362e4a5efbd5b519a3.png?1663872410',
+  //     name: 'Hyundai Elantra',
+  //     drive: 'Manual',
+  //     fuel: 'Diesel',
+  //     space: '5 Seats',
+  //     reating: '3.87 (64) ',
+  //     driven: '  9,783 kms driven',
+  //     age: '12',
+  //     price: '₹3,694',
+  //     type: 'Sedan',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/a9da5e1244b4c6f13a062514fdd4d0f42d4570f6.png?1663873287',
+  //     name: 'Hyundai Xcent',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '2.87 (64) ',
+  //     driven: '  97,067 kms driven',
+  //     age: '20',
+  //     price: '₹3,254',
+  //     type: 'Sedan',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/2468a02b600959f38a5d4fa1129dcfdee86717a8.png?1663871609',
+  //     name: 'Tata Altroz',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.90 (49)',
+  //     driven: '₹25,000 kms driven',
+  //     age: '15',
+  //     price: '₹5,500',
+  //     type: 'Hatchback',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/a9da5e1244b4c6f13a062514fdd4d0f42d4570f6.png?1663873287',
+  //     name: 'Hyundai i20',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.89 (41)',
+  //     driven: '₹21,345 kms driven',
+  //     age: '7',
+  //     price: '₹6,282',
+  //     type: 'Hatchback',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/42f650b8dee1baef441fef362e4a5efbd5b519a3.png?1663872410',
+  //     name: 'Renault Kwid',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.27 (7)',
+  //     driven: '18,457 kms driven',
+  //     age: '10',
+  //     price: '₹3,882',
+  //     type: 'Hatchback',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/42f650b8dee1baef441fef362e4a5efbd5b519a3.png?1663872410',
+  //     name: 'Maruti Suzuki Swift',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.77 (118)',
+  //     driven: '8,562 kms driven',
+  //     age: '14',
+  //     price: '₹4,871',
+  //     type: 'Hatchback',
+  //   },
+  //   {
+  //     image_url:
+  //       'https://zoomcar-assets.zoomcar.com/photographs/original/289ac94026c19af09c0dd6de322896ebd2a9b227.png?1663874188',
+  //     name: 'Maruti Suzuki Baleno',
+  //     drive: 'Manual',
+  //     fuel: 'Petrol',
+  //     space: '5 Seats',
+  //     reating: '4.82 (32)',
+  //     driven: '9,524 kms driven',
+  //     age: '11',
+  //     price: '₹6067',
+  //     type: 'Hatchback',
+  //   },
+  // ];
   var car = [
     {
       image_url:
@@ -194,12 +610,15 @@
       name: 'Nissan Magnite XE',
       drive: 'Manual',
       fuel: 'Petrol',
-      space: '5 Seats',
-      reating: '4.9 (12)',
-      driven: '22,821kms driven',
+      space: '5 Seats ',
+      reating: '4.9 ',
+      driven: '22821 ',
       age: '10',
-      price: '₹3,750',
+      ratenx: '(12)',
+      price: '3750',
       type: 'SUV',
+      str: 'kms driven',
+      Popularity: '9',
     },
     {
       image_url:
@@ -207,24 +626,30 @@
       name: 'Ford Ecosport ',
       drive: 'Manual',
       fuel: 'Petrol',
-      space: '5 Seats',
-      reating: '4.87 (9)',
-      driven: '52,677 kms driven',
-      age: '12',
-      price: '₹4,958',
+      space: '5 Seats ',
+      reating: '4.87 ',
+      driven: '52677 ',
+      age: '13',
+      ratenx: '(2)',
+      price: '4958',
+      str: 'kms driven',
+      Popularity: '9',
       type: 'SUV',
     },
     {
       image_url:
-        'https://zoomcar-assets.zoomcar.com/photographs/original/a21d2ba781794d6c3f3e310c6a70b3d7c39cac89.png?1663876143',
+        'https://zoomcar-assets.zoomcar.com/photographs/original/7cdcf0c9cea2a50af208d175007ec702b9ef75fd.png?1663874036',
       name: 'KIA Sonet ',
       drive: 'Manual',
       fuel: 'Petrol',
       space: '5 Seats',
-      reating: '4.82 (6)',
-      driven: '14,844 kms driven',
-      age: '12',
-      price: '₹5,476',
+      reating: '4.82 ',
+      driven: '14844 ',
+      age: '17',
+      ratenx: '(8)',
+      price: '5476',
+      str: 'kms driven',
+      Popularity: '9',
       type: 'SUV',
     },
     {
@@ -234,10 +659,13 @@
       drive: 'Manual',
       fuel: 'Petrol',
       space: '7 Seats',
-      reating: '5.0 (6)',
-      driven: '16,578 kms driven',
-      age: '12',
-      price: '₹3,679',
+      reating: '5.0',
+      driven: '16578 ',
+      age: '13',
+      ratenx: '(6)',
+      price: '3679',
+      str: 'kms driven',
+      Popularity: '2',
       type: 'SUV',
     },
     {
@@ -247,23 +675,29 @@
       drive: 'Manual',
       fuel: 'Petrol',
       space: '7 Seats',
-      reating: '4.79 (65)',
-      driven: '39,274 kms driven',
-      age: '20',
-      price: '₹4,567',
+      reating: '4.79 ',
+      driven: '39274 ',
+      age: '12',
+      ratenx: '(65)',
+      price: '4567',
+      str: 'kms driven',
+      Popularity: '4',
       type: 'SUV',
     },
     {
       image_url:
-        'https://zoomcar-assets.zoomcar.com/photographs/original/a21d2ba781794d6c3f3e310c6a70b3d7c39cac89.png?1663876143',
+        'https://zoomcar-assets.zoomcar.com/photographs/original/199675b25d7039eb0713c43ba5f13f2cbd65cb85.png?1663876397',
       name: 'Renault Lodgy ',
       drive: 'Manual',
       fuel: 'Diesel',
       space: '7 Seats',
-      reating: '4.69 (24)',
-      driven: '54,281 kms driven',
-      age: '20',
-      price: '₹5,649',
+      reating: '4.69 ',
+      driven: '54281 ',
+      age: '16',
+      ratenx: '(24)',
+      price: '5649',
+      str: 'kms driven',
+      Popularity: '8',
       type: 'SUV',
     },
     {
@@ -273,10 +707,13 @@
       drive: 'Manual',
       fuel: 'Diesel',
       space: '5 Seats',
-      reating: '4.41 (94)',
-      driven: '42,963 kms driven',
+      reating: '4.41 ',
+      driven: '42963 ',
       age: '20',
-      price: '₹4,560',
+      ratenx: '(94)',
+      price: '4560',
+      str: 'kms driven',
+      Popularity: '4',
       type: 'SUV',
     },
     {
@@ -286,10 +723,13 @@
       drive: 'Manual',
       fuel: 'Petrol',
       space: '5 Seats',
-      reating: '4.76 (49)',
-      driven: '73,740 kms driven',
+      reating: '4.76 ',
+      driven: '73740 ',
       age: '20',
-      price: '₹3,848',
+      ratenx: '(49)',
+      price: '3848',
+      str: 'kms driven',
+      Popularity: '2',
       type: 'SUV',
     },
     {
@@ -299,10 +739,13 @@
       drive: 'Manual',
       fuel: 'Petrol',
       space: '5 Seats',
-      reating: '4.3 (12)',
-      driven: '50,000 kms driven',
-      age: '20',
-      price: '₹4,344',
+      reating: '4.3 ',
+      driven: '50000 ',
+      age: '9',
+      ratenx: '(12)',
+      price: '4344 ',
+      str: 'kms driven',
+      Popularity: '9',
       type: 'SUV',
     },
     {
@@ -313,23 +756,29 @@
       fuel: 'Petrol',
       space: '5 Seats',
       reating: '5.0 ',
-      driven: '368 kms driven',
-      age: '20',
-      price: '₹4,321',
+      driven: '368 ',
+      age: '3',
+      ratenx: '',
+      price: '4321',
+      str: 'kms driven',
+      Popularity: '1',
       type: 'SUV',
     },
     {
       image_url:
         'https://zoomcar-assets.zoomcar.com/photographs/original/2bfa504fda54519e54871e49ccf7a713c7452d97.png?1663874651',
       name: 'Maruti Dzire ',
-      drive: 'Manual',
+      drive: 'Automatic',
       fuel: 'Petrol',
       space: '5 Seats',
-      reating: '4.97 (52) ',
-      driven: '17,584 kms driven ',
-      age: '20',
-      price: '₹4,918',
+      reating: '4.97  ',
+      driven: '17584 ',
+      age: '40',
+      ratenx: '(37)',
+      price: '4918',
       type: 'Sedan',
+      str: 'kms driven',
+      Popularity: '8',
     },
     {
       image_url:
@@ -338,11 +787,14 @@
       drive: 'Manual',
       fuel: 'Petrol',
       space: '5 Seats',
-      reating: '4.81 (37) ',
-      driven: ' 33,520 kms driven ',
-      age: '20',
-      price: '₹3,948',
+      reating: '4.81  ',
+      driven: '33520 ',
+      age: '22',
+      ratenx: '(4)',
+      price: '3948',
       type: 'Sedan',
+      str: 'kms driven',
+      Popularity: '9',
     },
     {
       image_url:
@@ -351,23 +803,29 @@
       drive: 'Manual',
       fuel: 'Petrol',
       space: '5 Seats',
-      reating: '4.87 (42) ',
-      driven: ' 28,010 kms driven',
-      age: '20',
-      price: '₹4,007',
+      reating: '4.87 ',
+      driven: '28010 ',
+      age: '9',
+      ratenx: '(42)',
+      price: '4007',
+      str: 'kms driven',
+      Popularity: '7',
       type: 'Sedan',
     },
     {
       image_url:
-        'https://zoomcar-assets.zoomcar.com/photographs/original/a9da5e1244b4c6f13a062514fdd4d0f42d4570f6.png?1663873287',
+        'https://zoomcar-assets.zoomcar.com/photographs/original/e26eedeb526bc47fc54d78c973b49773c448b1b8.png?1663876299',
       name: 'Hyundai Xcent',
-      drive: 'Manual',
+      drive: 'Automatic',
       fuel: 'Petrol',
       space: '5 Seats',
-      reating: '4.87 (64) ',
-      driven: '  67,067 kms driven',
-      age: '20',
-      price: '₹3,254',
+      reating: '4.87  ',
+      driven: '6706 ',
+      age: '8',
+      ratenx: '(41)',
+      price: '3254',
+      str: 'kms driven',
+      Popularity: '6',
       type: 'Sedan',
     },
     {
@@ -377,119 +835,147 @@
       drive: 'Manual',
       fuel: 'Diesel',
       space: '5 Seats',
-      reating: '4.87 (64) ',
-      driven: '  47,783 kms driven',
-      age: '20',
-      price: '₹5,694',
+      reating: '4.87  ',
+      driven: '4778 ',
+      age: '5',
+      ratenx: '(64)',
+      price: '5694',
+      str: 'kms driven',
+      Popularity: '2',
       type: 'Sedan',
     },
     {
       image_url:
-        'https://zoomcar-assets.zoomcar.com/photographs/original/2bfa504fda54519e54871e49ccf7a713c7452d97.png?1663874651',
+        'https://zoomcar-assets.zoomcar.com/photographs/original/ed9a65d8dc05ef4a910ce081fa6e6ce64e4b3114.png?1663872241',
       name: 'Maruti Dzire ',
       drive: 'Manual',
       fuel: 'Petrol',
       space: '5 Seats',
-      reating: '4.0 (52) ',
-      driven: '17,084 kms driven ',
-      age: '20',
-      price: '₹3,008',
+      reating: '4.0  ',
+      driven: '17084 ',
+      age: '30',
+      ratenx: '(52)',
+      price: '3008',
       type: 'Sedan',
+      str: 'kms driven',
+      Popularity: '4',
     },
     {
       image_url:
-        'https://zoomcar-assets.zoomcar.com/photographs/original/42f650b8dee1baef441fef362e4a5efbd5b519a3.png?1663872410',
+        'https://zoomcar-assets.zoomcar.com/photographs/original/5f9e0fc31aa8107e2d487ce5756126703915c2e1.png?1663874214',
       name: 'Hyundai Elantra',
       drive: 'Manual',
       fuel: 'Diesel',
       space: '5 Seats',
-      reating: '3.87 (64) ',
-      driven: '  9,783 kms driven',
+      reating: '3.87  ',
+      driven: '9783 ',
       age: '12',
-      price: '₹3,694',
+      ratenx: '(64)',
+      price: '3694',
+      str: 'kms driven',
+      Popularity: '5',
       type: 'Sedan',
     },
     {
       image_url:
-        'https://zoomcar-assets.zoomcar.com/photographs/original/a9da5e1244b4c6f13a062514fdd4d0f42d4570f6.png?1663873287',
+        'https://zoomcar-assets.zoomcar.com/photographs/original/7cdcf0c9cea2a50af208d175007ec702b9ef75fd.png?1663874036',
       name: 'Hyundai Xcent',
       drive: 'Manual',
       fuel: 'Petrol',
       space: '5 Seats',
-      reating: '2.87 (64) ',
-      driven: '  97,067 kms driven',
+      reating: '2.87 ',
+      driven: '9706 ',
       age: '20',
-      price: '₹3,254',
+      ratenx: '(64) ',
+      price: '3254',
+      str: 'kms driven',
+      Popularity: '7',
       type: 'Sedan',
     },
     {
       image_url:
-        'https://zoomcar-assets.zoomcar.com/photographs/original/a9da5e1244b4c6f13a062514fdd4d0f42d4570f6.png?1663873287',
+        'https://zoomcar-assets.zoomcar.com/photographs/original/77cee0728de888bf87982d554722ba84fb1e0391.png?1663873837',
       name: 'Tata Altroz',
-      drive: 'Manual',
+      drive: 'Automatic',
       fuel: 'Petrol',
       space: '5 Seats',
-      reating: '4.90 (49)',
-      driven: '₹25,000 kms driven',
+      reating: '4.90 ',
+      driven: '25000 ',
       age: '15',
-      price: '₹5,500',
+      ratenx: '(41)',
+      price: '5500',
+      str: 'kms driven',
+      Popularity: '3',
       type: 'Hatchback',
     },
     {
       image_url:
-        'https://zoomcar-assets.zoomcar.com/photographs/original/a9da5e1244b4c6f13a062514fdd4d0f42d4570f6.png?1663873287',
+        'https://zoomcar-assets.zoomcar.com/photographs/original/2733bd472b2c1cf2964cb9612854abbea8a9aeaa.png?1663874676',
       name: 'Hyundai i20',
       drive: 'Manual',
       fuel: 'Petrol',
       space: '5 Seats',
-      reating: '4.89 (41)',
-      driven: '₹21,345 kms driven',
+      reating: '4.89 ',
+      driven: '21345 ',
       age: '7',
-      price: '₹6,282',
+      ratenx: '(41)',
+      price: '2345',
+      str: 'kms driven',
+      Popularity: '9',
       type: 'Hatchback',
     },
     {
       image_url:
-        'https://zoomcar-assets.zoomcar.com/photographs/original/42f650b8dee1baef441fef362e4a5efbd5b519a3.png?1663872410',
+        'https://zoomcar-assets.zoomcar.com/photographs/original/16d0a4e4ed8e4f25aa1f824330c74e8abf4e02ad.png?1663874275',
       name: 'Renault Kwid',
       drive: 'Manual',
       fuel: 'Petrol',
       space: '5 Seats',
-      reating: '4.27 (7)',
-      driven: '18,457 kms driven',
+      reating: '4.27 ',
+      driven: '18457 ',
       age: '10',
-      price: '₹3,882',
+      ratenx: '(41)',
+      price: '3882',
+      str: 'kms driven',
+      Popularity: '2',
       type: 'Hatchback',
     },
     {
       image_url:
-        'https://zoomcar-assets.zoomcar.com/photographs/original/42f650b8dee1baef441fef362e4a5efbd5b519a3.png?1663872410',
+        'https://zoomcar-assets.zoomcar.com/photographs/original/1e16802bac3c6ee639b20c4248acdecbe4819b18.png?1663876495',
       name: 'Maruti Suzuki Swift',
       drive: 'Manual',
       fuel: 'Petrol',
       space: '5 Seats',
-      reating: '4.77 (118)',
-      driven: '8,562 kms driven',
-      age: '14',
-      price: '₹4,871',
+      reating: '4.77 ',
+      driven: '8562 ',
+      age: '24',
+      ratenx: '(41)',
+      price: '4871',
+      str: 'kms driven',
+      Popularity: '7',
       type: 'Hatchback',
     },
     {
       image_url:
-        'https://zoomcar-assets.zoomcar.com/photographs/original/42f650b8dee1baef441fef362e4a5efbd5b519a3.png?1663872410',
+        'https://zoomcar-assets.zoomcar.com/photographs/original/13284dce101cd7020c977103e2cb5f33bee3b0e9.png?1663874479',
       name: 'Maruti Suzuki Baleno',
       drive: 'Manual',
       fuel: 'Petrol',
       space: '5 Seats',
-      reating: '4.82 (32)',
-      driven: '9,524 kms driven',
+      reating: '4.82 ',
+      driven: '9524 ',
       age: '11',
-      price: '₹6067',
+      ratenx: '(41)',
+      price: '96',
+      str: 'kms driven',
+      Popularity: '1',
       type: 'Hatchback',
     },
   ];
-  display();
-  function display() {
+  display(car);
+  function display(car) {
+    document.querySelector('.ppp').innerText = '';
     car.map(function (ele, index) {
       var ddiv = document.createElement('div');
       var ddia = document.createElement('div');
@@ -499,7 +985,8 @@
       var ddic = document.createElement('div');
       var extraADD = document.createElement('div');
       var pop = document.createElement('p');
-      pop.innerText = '7.2 km Vir Banda Bairagi Marg...';
+      // pop.innerText = '7.2 km Vir Banda Bairagi Marg...';
+      pop.innerText = '';
       extraADD.append(pop);
       pop.setAttribute('class', 'pop');
       extraADD.setAttribute('class', 'extraADD');
@@ -513,8 +1000,11 @@
       img.setAttribute('src', ele.image_url);
       ddia.append(img);
       var ddid = document.createElement('div');
-      var h3 = document.createElement('h3');
+      var h3 = document.createElement('h1');
       h3.innerText = ele.name;
+
+      h3.setAttribute('class', 'h3');
+
       ddid.append(h3);
       var ddie = document.createElement('div');
       var ddif = document.createElement('div');
@@ -545,8 +1035,8 @@
       var sp2 = document.createElement('div');
       sp2.setAttribute('class', 'sp');
       sp2.innerText = '.';
-      ddil.innerText = ele.reating;
-      ddim.innerText = ele.driven;
+      ddil.innerText = ele.reating + ele.ratenx;
+      ddim.innerText = ele.driven + 'kms driven';
       var ddin = document.createElement('div');
       // var sop = document.createElement('span');
       // sop.setAttribute('class', 'material-symbols-outlined');
@@ -561,9 +1051,13 @@
       buuu.setAttribute('class', 'buuu');
       ddip.setAttribute('class', 'ddip');
       buuu.innerText = 'BOOK NOW';
+      buuu.addEventListener('click', function () {
+        kl(index);
+      });
+      // function kl(index) {}
       // var ddiq = document.createElement('div')
 
-      ddio.append(ele.price);
+      ddio.append('₹' + ele.price);
       ddiq.append('₹4,958');
       ddio.setAttribute('class', 'ddio');
       ddiq.setAttribute('class', 'ddiq');
@@ -575,5 +1069,365 @@
       ddiv.append(ddia, ddimain);
       divBoby.append(ddiv);
     });
+  }
+  function kl(index) {
+    console.log('n');
+    carArray.splice(0, carArray.length);
+    carArray.push(car[index]);
+    localStorage.setItem('added', JSON.stringify(carArray));
+  }
+  var aapa = [0, 0, 0, 0, 0, 0, 0];
+  var G1 = document.querySelector('#G1');
+  G1.addEventListener('click', myRelevance);
+  function myRelevance() {
+    console.log('hjn');
+    ans();
+    G1.style.background = 'rgb(11,150,10)';
+    G1.style.color = 'white';
+
+    car.sort(function (a, b) {
+      return parseFloat(Number(a.price)) - parseFloat(Number(b.price));
+    });
+    car.sort(function (a, b) {
+      return parseFloat(Number(b.reating)) - parseFloat(Number(a.reating));
+    });
+    display(car);
+  }
+  var G2 = document.querySelector('#G2');
+  G2.addEventListener('click', mypriceA);
+  function mypriceA() {
+    console.log('hjn');
+    ans();
+    G2.style.background = 'rgb(11,150,10)';
+    G2.style.color = 'white';
+
+    car.sort(function (a, b) {
+      return parseFloat(Number(a.price)) - parseFloat(Number(b.price));
+    });
+
+    display(car);
+  }
+  function ans() {
+    G1.style.background = 'white';
+    G1.style.color = 'black';
+    G2.style.background = 'white';
+    G2.style.color = 'black';
+    G3.style.background = 'white';
+    G3.style.color = 'black';
+    G4.style.background = 'white';
+    G4.style.color = 'black';
+    G5.style.background = 'white';
+    G5.style.color = 'black';
+    G6.style.background = 'white';
+    G6.style.color = 'black';
+    G7.style.background = 'white';
+    G7.style.color = 'black';
+    G8.style.background = 'white';
+    G8.style.color = 'black';
+  }
+  var G3 = document.querySelector('#G3');
+  G3.addEventListener('click', mypriceD);
+  function mypriceD() {
+    console.log('hjn');
+    ans();
+    G3.style.background = 'rgb(11,150,10)';
+    G3.style.color = 'white';
+    car.sort(function (a, b) {
+      return parseFloat(Number(b.price)) - parseFloat(Number(a.price));
+    });
+    display(car);
+  }
+  var G4 = document.querySelector('#G4');
+  G4.addEventListener('click', myreating);
+  function myreating() {
+    console.log('hjn');
+    ans();
+    G4.style.background = 'rgb(11,150,10)';
+    G4.style.color = 'white';
+    car.sort(function (a, b) {
+      return parseFloat(Number(b.reating)) - parseFloat(Number(a.reating));
+    });
+    display(car);
+  }
+  var G5 = document.querySelector('#G5');
+  G5.addEventListener('click', mydriven);
+  function mydriven() {
+    console.log('hjn');
+    ans();
+    G5.style.background = 'rgb(11,150,10)';
+    G5.style.color = 'white';
+    car.sort(function (a, b) {
+      return parseFloat(Number(b.driven)) - parseFloat(Number(a.driven));
+    });
+    display(car);
+  }
+  var G6 = document.querySelector('#G6');
+  G6.addEventListener('click', myage);
+  function myage() {
+    console.log('hjn');
+    ans();
+    G6.style.background = 'rgb(11,150,10)';
+    G6.style.color = 'white';
+    car.sort(function (a, b) {
+      return parseFloat(Number(a.age)) - parseFloat(Number(b.age));
+    });
+    display(car);
+  }
+  var G7 = document.querySelector('#G7');
+  G7.addEventListener('click', mydrivenn);
+  function mydrivenn() {
+    console.log('hjn');
+    ans();
+    G7.style.background = 'rgb(11,150,10)';
+    G7.style.color = 'white';
+    car.sort(function (a, b) {
+      return parseFloat(Number(a.driven)) - parseFloat(Number(b.driven));
+    });
+    display(car);
+  }
+  var G8 = document.querySelector('#G8');
+  G8.addEventListener('click', myPopularity);
+  function myPopularity() {
+    console.log('hjn');
+    ans();
+    G8.style.background = 'rgb(11,150,10)';
+    G8.style.color = 'white';
+    car.sort(function (a, b) {
+      return (
+        parseFloat(Number(a.Popularity)) - parseFloat(Number(b.Popularity))
+      );
+    });
+    display(car);
+  }
+  var G9 = document.querySelector('#G9');
+  G9.addEventListener('click', myHatchback);
+
+  function myHatchback() {
+    var t = car.filter(function (ele) {
+      return ele.type == 'Hatchback';
+    });
+    // console.log('hjn');
+    G9.style.background = 'rgb(11,150,10)';
+    G9.style.color = 'white';
+    // car.sort(function (a, b) {
+    //   return (
+    //     parseFloat(Number(a.)) - parseFloat(Number(b.Popularity))
+    //   );
+
+    display(t);
+  }
+  var G10 = document.querySelector('#G10');
+  G10.addEventListener('click', mySedan);
+  function mySedan() {
+    var t = car.filter(function (ele) {
+      return ele.type == 'Sedan';
+    });
+    // console.log('hjn');
+    G10.style.background = 'rgb(11,150,10)';
+    G10.style.color = 'white';
+    // car.sort(function (a, b) {
+    //   return (
+    //     parseFloat(Number(a.)) - parseFloat(Number(b.Popularity))
+    //   );
+
+    display(t);
+  }
+  var G11 = document.querySelector('#G11');
+  G11.addEventListener('click', mySUV);
+  function mySUV() {
+    var t = car.filter(function (ele) {
+      return ele.type == 'SUV';
+    });
+    // console.log('hjn');
+    G11.style.background = 'rgb(11,150,10)';
+    G11.style.color = 'white';
+    // car.sort(function (a, b) {
+    //   return (
+    //     parseFloat(Number(a.)) - parseFloat(Number(b.Popularity))
+    //   );
+
+    display(t);
+  }
+  var G15 = document.querySelector('#G15');
+  G15.addEventListener('click', myspace);
+  function myspace() {
+    var t = car.filter(function (ele) {
+      return ele.space == '7 Seats';
+    });
+    spans();
+    // console.log('hjn');
+    G15.style.background = 'rgb(11,150,10)';
+    G15.style.color = 'white';
+    // car.sort(function (a, b) {
+    //   return (
+    //     parseFloat(Number(a.)) - parseFloat(Number(b.Popularity))
+    //   );
+
+    display(t);
+  }
+  function spans() {
+    // G6.style.background = 'white';
+    //   G6.style.color = 'black';
+    G14.style.background = 'white';
+    G14.style.color = 'black';
+    G15.style.background = 'white';
+    G15.style.color = 'black';
+  }
+  var G14 = document.querySelector('#G14');
+  G14.addEventListener('click', myspace7);
+  function myspace7() {
+    var t = car.filter(function (ele) {
+      return ele.space == '5 Seats';
+    });
+    spans();
+    // console.log('hjn');
+    G14.style.background = 'rgb(11,150,10)';
+    G14.style.color = 'white';
+    // car.sort(function (a, b) {
+    //   return (
+    //     parseFloat(Number(a.)) - parseFloat(Number(b.Popularity))
+    //   );
+
+    display(t);
+  }
+  function fuelans() {
+    // G6.style.background = 'white';
+    //   G6.style.color = 'black';
+    G16.style.background = 'white';
+    G16.style.color = 'black';
+    G17.style.background = 'white';
+    G17.style.color = 'black';
+  }
+  var G16 = document.querySelector('#G16');
+  G16.addEventListener('click', myfuel);
+  function myfuel() {
+    var t = car.filter(function (ele) {
+      return ele.fuel == 'Petrol';
+    });
+    fuelans();
+    // console.log('hjn');
+    G16.style.background = 'rgb(11,150,10)';
+    G16.style.color = 'white';
+    // car.sort(function (a, b) {
+    //   return (
+    //     parseFloat(Number(a.)) - parseFloat(Number(b.Popularity))
+    //   );
+
+    display(t);
+  }
+  var G17 = document.querySelector('#G17');
+  G17.addEventListener('click', myDiesel);
+  function myDiesel() {
+    var t = car.filter(function (ele) {
+      return ele.fuel == 'Diesel';
+    });
+    fuelans();
+    // console.log('hjn');
+    G17.style.background = 'rgb(11,150,10)';
+    G17.style.color = 'white';
+    // car.sort(function (a, b) {
+    //   return (
+    //     parseFloat(Number(a.)) - parseFloat(Number(b.Popularity))
+    //   );
+    display(t);
+  }
+  function transans() {
+    // G6.style.background = 'white';
+    //   G6.style.color = 'black';
+    G20.style.background = 'white';
+    G20.style.color = 'black';
+    G21.style.background = 'white';
+    G21.style.color = 'black';
+  }
+  var G20 = document.querySelector('#G20 ');
+  G20.addEventListener('click', myManual);
+  function myManual() {
+    var t = car.filter(function (ele) {
+      return ele.drive == 'Manual';
+    });
+    // console.log('hjn');
+    transans();
+    G20.style.background = 'rgb(11,150,10)';
+    G20.style.color = 'white';
+
+    // car.sort(function (a, b) {
+    //   return (
+    //     parseFloat(Number(a.)) - parseFloat(Number(b.Popularity))
+    //   );
+    display(t);
+  }
+  var G21 = document.querySelector('#G21 ');
+  G21.addEventListener('click', myAutomatic);
+  function myAutomatic() {
+    var t = car.filter(function (ele) {
+      return ele.drive == 'Automatic';
+    });
+    transans();
+    // console.log('hjn');
+    G21.style.background = 'rgb(11,150,10)';
+    G21.style.color = 'white';
+    // car.sort(function (a, b) {
+    //   return (
+    //     parseFloat(Number(a.)) - parseFloat(Number(b.Popularity))
+    //   );
+    display(t);
+  }
+  function Rsans() {
+    // G6.style.background = 'white';
+    //   G6.style.color = 'black';
+    G22.style.background = 'white';
+    G22.style.color = 'black';
+    G23.style.background = 'white';
+    G23.style.color = 'black';
+    G24.style.background = 'white';
+    G24.style.color = 'black';
+  }
+  var G22 = document.querySelector('#G22 ');
+  G22.addEventListener('click', myreatin);
+  function myreatin() {
+    var t = car.filter(function (ele) {
+      return 3 < ele.reating && 5 > ele.reating;
+    });
+    Rsans();
+    // console.log('hjn');
+    G22.style.background = 'rgb(11,150,10)';
+    G22.style.color = 'white';
+    // car.sort(function (a, b) {
+    //   return (
+    //     parseFloat(Number(a.)) - parseFloat(Number(b.Popularity))
+    //   );
+    display(t);
+  }
+  var G23 = document.querySelector('#G23 ');
+  G23.addEventListener('click', myreatin5);
+  function myreatin5() {
+    var t = car.filter(function (ele) {
+      return 4 < ele.reating && 5 > ele.reating;
+    });
+    Rsans();
+    // console.log('hjn');
+    G23.style.background = 'rgb(11,150,10)';
+    G23.style.color = 'white';
+    // car.sort(function (a, b) {
+    //   return (
+    //     parseFloat(Number(a.)) - parseFloat(Number(b.Popularity))
+    //   );
+    display(t);
+  }
+  var G24 = document.querySelector('#G24 ');
+  G24.addEventListener('click', myreatinA);
+  function myreatinA() {
+    var t = car.filter(function (ele) {
+      return 5 > ele.reating;
+    });
+    Rsans();
+    // console.log('hjn');
+    G24.style.background = 'rgb(11,150,10)';
+    G24.style.color = 'white';
+    // car.sort(function (a, b) {
+    //   return (
+    //     parseFloat(Number(a.)) - parseFloat(Number(b.Popularity))
+    //   );
+    display(t);
   }
 </script>
