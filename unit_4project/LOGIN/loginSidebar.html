@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login sidebar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        #userPic
+        {
+            border-radius: 50%;
+            width:50px;
+            margin-left:10px;
+            margin-top: 15px;
+        }
+        #userProfile
+        {
+            line-height: 70px;
+            width: 380px;
+            background: black;
+            display: flex;
+        }
+        .nameAppear div
+        {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;            
+        }       
+        .anchor
+        {
+            text-decoration: none;
+            color: #1f1f1f;;
+        }
+        #userName
+        {
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size:18px;
+        }
+        .emailNnumber
+        {
+            color: #a8a8a8;
+            font-size: 14px;     
+        }    
+        #userDetail
+        {
+            line-height:10px;
+            margin-left:15px;
+            margin-top: -2px;
+        }   
+        #userDetail + p
+        {
+            font-size: 18px;        
+
+        } 
+       #c
+       {
+        
+        font-size:20px;
+        margin-left: 7px;
+        margin-bottom: 30px;
+        margin-right:15px;
+       }
+       #content
+       {
+        margin-top: 15px;
+       }
+    </style>
+</head>
+<body>
+    <div class="nameAppear">
+
+        <div id="userProfile"> 
+            <div><img id="userPic" src="https://lh3.googleusercontent.com/a/ALm5wu3M4QjDn37mn3i1Hy3zfrk5KC45IJTg1h6xxreZ4o4=s96-c"></div>
+            <div id="userDetail"><h3 id="userName">sourabh</h3>
+                <p class="emailNnumber">sourabh01itsme@gmail.com</p>
+                <p class="emailNnumber">8287852006</p>
+            </div>            
+        </div>
+
+        <div id="content">
+            <i id="c" class="fa-solid fa-drum"></i>  <span class="afterLoginbar">Credits</span>
+        </div>
+
+        <div>
+            <i id="c" class="fa-solid fa-z"></i> <span class="afterLoginbar">Z-POINTS</span>
+        </div>
+
+        <div>
+            <i id="c" class="fa-solid fa-wallet"></i> <span class="afterLoginbar"> Paytm wallet</span> <span>Link wallet</span>
+        </div>
+
+        <div>
+            <i id="c" class="fa-solid fa-car"></i> <span class="afterLoginbar">My Trips</span>
+        </div>
+
+        <div>
+            <i id="c" class="fa-solid fa-check-to-slot"></i> <span class="afterLoginbar">Profile Verification</span>
+        </div>
+    
+        <div>
+            <i id="c" class="fa-solid fa-location-dot"></i> <span class="afterLoginbar">Change City</span>
+        </div>
+    
+        <div id="ahost">
+            <i id="c" class="fa-solid fa-z"></i> <a class="anchor" href=""> Become a Host  </a> 
+        </div>
+    
+        <div>
+            <i id="c" class="fa-regular fa-file-lines"></i> <a class="anchor" href="https://www.zoomcar.com/in/pune/policy"> Zoomcar Fleet Vehicles Policies </a>
+        </div>
+    
+        <div>
+            <i id="c" class="fa-regular fa-file-lines"></i><a class="anchor" href="https://www.zoomcar.com/in/pune/host-policy"> Zoomcar Host Vehicles Policies </a>
+        </div>
+    
+        <div> 
+            <i id="c" class="fa-solid fa-phone"></i> <a class="anchor" href="https://www.zoomcar.com/faq">  Help & Support </a>
+         </div>   
+
+         <div>
+            <i id="c" class="fa-solid fa-arrow-right-from-bracket"></i> <span id="logOut">Logout</span>
+         </div>
+         
+    </div>
+    
+</body>
+</html>

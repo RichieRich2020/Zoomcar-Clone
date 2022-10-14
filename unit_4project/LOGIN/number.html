@@ -6,7 +6,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>login/sign-up</title>
+    <link rel="icon" href="icon.png" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,100,0,-25" />
@@ -61,13 +62,21 @@
   </body>
 </html>
 <script>
+  var details = JSON.parse(localStorage.getItem('Alltails')) || [];
   document.querySelector('button').addEventListener('click', Mu);
   document
     .querySelector('.material-symbols-outlined')
     .addEventListener('click', MMu);
   function Mu() {
-    var okm = +document.querySelector('.okm').value;
+    var okm = document.querySelector('.okm').value;
+
     if (okm > 1000000000 && okm < 10000000000) {
+      var objlogin = {};
+      console.log('jks');
+      objlogin.number = okm;
+      details.splice(0, details.length);
+      details.push(objlogin);
+      localStorage.setItem('Alltails', JSON.stringify(details));
       // alert(
       //   'The mobile number ' +
       //     '+91' +
