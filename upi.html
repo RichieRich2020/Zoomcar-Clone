@@ -85,7 +85,8 @@ img {
 
         <div id="nav">
             <div id="nav1">
-                  <h3>Enter Card Details</h3>
+                  <h3>
+                    Select UPI App</h3>
                   <p>Amount: ₹57419.0</p>
                   
             </div>
@@ -97,8 +98,8 @@ img {
 
         <br>
              <div id="upi">
-                   <div>  <input type="text" placeholder="Enter Upi Id"></div>
-                   <div><input type="button" value="VERIFY"></div>
+                   <div>  <input id="holder" type="text" placeholder="Enter Upi Id"></div>
+                   <div><input id="upi2" type="button" value="VERIFY"></div>
              </div>
          
 
@@ -108,3 +109,26 @@ img {
 
 </body>
 </html>
+
+
+<script>
+
+    document.querySelector("#upi2").addEventListener("click",paymentwallet);
+
+    function paymentwallet() {
+      event.preventDefault();
+
+      if(document.querySelector("#holder").value != "") {
+        alert("Payment Successful");
+        location.href = "index.html";
+      }
+    
+
+      
+    else {
+        alert("Please enter your UPI ID");
+    }
+        
+    }
+
+</script>

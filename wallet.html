@@ -55,6 +55,15 @@ img {
 a {
     text-decoration: none;
 }
+
+#walletcol {
+    font-family: IBM Plex sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: black;
+
+}
     </style>
 
 </head>
@@ -66,7 +75,7 @@ a {
 
         <div id="nav">
             <div id="nav1">
-                  <h3>Enter Card Details</h3>
+                <p id="walletcol">Select Mobile Wallet</p>
                   <p>Amount: ₹57419.0</p>
                   
             </div>
@@ -81,7 +90,7 @@ a {
             
         <div id="box">
               <div><img src="https://img1.zoomcar.com/images/original/91871c2e202fd271724063a4a38033612d37c219.png?1584602070" alt=""> </div>
-              <div><a href="">PayTM</a></div>
+              <div><a id="paytm" href="">PayTM</a></div>
         </div>
 
      </div>
@@ -90,3 +99,17 @@ a {
 
 </body>
 </html>
+
+
+<script>
+
+          document.querySelector("#paytm").addEventListener("click",paymentwallet);
+
+          function paymentwallet() {
+            event.preventDefault();
+
+            document.querySelector("#paytm");
+            alert("Payment Successful");
+            location.href = "index.html";
+          }
+</script>
