@@ -1,0 +1,391 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  border: 0px;
+  width: 380px;
+  height: 638px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 14px;
+  color: rgb(82, 81, 81);
+  /* box-shadow: rgba(0, 0, 0.0, 0.40) 5px 3px 3px;   */
+}
+
+.container > div {
+  border: 0;
+  word-spacing: 2px;
+  width: 100%;
+  height: 60px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+img {
+  border: 0px solid red;
+  margin-top: 13px;
+  margin-left: 12px;
+  width: auto;
+  height: 35px;
+  align-items: center;
+}
+
+a {
+  color: rgb(82, 81, 81);
+  text-decoration: none;
+}
+
+p {
+  margin-left: 100px;
+  margin-top: 35px;
+}
+
+#colour {
+  background-color: rgb(229, 232, 236);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 15px;
+}
+body {
+  z-index: 5000;
+}
+#display {
+  display: flex;
+}
+#neverStopLoving > img {
+  width: 17%;
+  height: 90%;
+  margin-top: 70px;
+}
+#zoomcar_img {
+  width: 100%;
+  height: inherit;
+}
+#twoBox {
+  display: flex;
+  justify-content: center;
+  font-family: 'IBM Plex Sans';
+}
+#twoBox > div {
+  margin: 15px;
+  border-radius: 5px;
+  width: 32%;
+  cursor: pointer;
+}
+#appDownload {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 30%;
+  padding: 15px;
+}
+#refer {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#refer > h3 {
+  font-size: 20px;
+}
+#refer > h3 + p {
+  font-size: 14px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#about {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  cursor: pointer;
+}
+#about > p {
+  color: #8c8c8c;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+#details {
+  width: 65%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#details + h4 {
+  text-align: left;
+  line-height: 21px;
+}
+#details > h4 + p {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 50px;
+  margin-top: -10px;
+  color: black;
+}
+
+#backgroundColor {
+  background-color: #f5f5f5;
+  padding: 5px;
+}
+
+#redCar {
+  width: 100%;
+  height: 300%;
+  margin-bottom: -5px;
+  margin-left: 1%;
+  margin-top: -1%;
+}
+
+#display {
+  gap: 10px;
+  padding: 0px 0px 0px 20px;
+}
+#rfriends {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 15px 15px 25px 15px;
+  font-size: 16px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 510;
+}
+#divide {
+  width: 60%;
+}
+#mobile {
+  width: 35%;
+}
+#mobile > img {
+  width: 100%;
+  height: 80%;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+h3 + h2 {
+  border-style: dashed;
+  color: #b9b6b6;
+  font-size: 20px;
+  padding: 8px;
+}
+h2 + h2 {
+  font-size: 22px;
+  color: #10a310;
+}
+h2 + h3 {
+  font-size: 17px;
+  color: #666666;
+  margin-top: -15px;
+  margin-bottom: 25px;
+}
+h3 + p {
+  font-size: 14px;
+  color: black;
+}
+#delhi {
+  color: #0000ee;
+  cursor: pointer;
+}
+#header {
+  background-size: cover;
+  margin-top: -80px;
+  background-image: url('https://zoomcar-assets.zoomcar.com/images/original/a121667db0d5e435e48884b015120bc180a4ad2f.jpg');
+}
+#form {
+  width: 28%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+#roundTrip {
+  display: flex;
+}
+#roundTrip > input {
+  border: 2px solid #10a310;
+  color: #10a310;
+}
+#roundTrip > input ~ input {
+  border: none;
+  background-color: #f5f5f5;
+  color: black;
+}
+
+input {
+  margin-top: 370px;
+  padding: 15px 15px 20px 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+#pickup > input {
+  margin: 10px 0px 0px 0px;
+  border: none;
+}
+#pickup > input ~ input {
+  background-color: #10a310;
+  border: none;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 750;
+}
+#menuclick {
+  position: relative;
+}
+
+#container {
+  position: relative;
+  margin: auto;
+  background-color: black;
+  display: flex;
+  margin-top: -8px;
+  height: 70px;
+  text-align: justify;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#container > div {
+  margin-top: 20px;
+}
+#colour {
+  margin-left: -5px;
+}
+
+#left1 > h1,
+p {
+  color: white;
+  margin-left: 15px;
+}
+
+#left > img {
+  height: 50px;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+#left1 > #inputd {
+  padding-top: 10px;
+}
+
+h1 {
+  margin-top: -20px;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+#inputdec {
+  font-style: italic;
+  font-size: 15px;
+  margin-top: -29px;
+}
+
+#left1 {
+  width: 25%;
+  /* margin-left: 50px; */
+  margin-top: 10px;
+}
+
+#right {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+#right > a {
+  color: white;
+  text-decoration: none;
+}
+
+#loginNsignup {
+  font-weight: 700;
+}
+#zms {
+  font-weight: 700;
+}
+#host {
+  margin-left: 42%;
+  border-radius: 5px;
+}
+button {
+  background-color: #ffffff;
+  margin-top: -8px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#findCars {
+  color: white;
+}
+#roundDate {
+  display: flex;
+}
+#roundDate > input {
+  margin-top: 10px;
+}
+#or {
+  margin-left: -15px;
+}
+
+/* Navbar Responsive */
+@media screen and (max-width: 899px) {
+  * {
+    overflow-x: hidden;
+  }
+  #twoBox {
+    display: block;
+
+    /* position: relative; */
+    /* width:100%; */
+  }
+  #twoBox > div {
+    width: 100%;
+    margin: auto;
+  }
+
+  #container {
+    background-image: url('https://zoomcar-assets.zoomcar.com/images/original/a121667db0d5e435e48884b015120bc180a4ad2f.jpg');
+  }
+  #inputd {
+    margin-top: -1000%;
+  }
+  #becomeHost {
+    background-color: black;
+    color: white;
+  }
+  #zms {
+    /* margin-right: -50%; */
+    margin-top: -100%;
+  }
+  #loginNsignup {
+    /* margin-right: -50%; */
+    margin-top: -200%;
+  }
+  #host {
+    margin-right: -80%;
+  }
+}
+
+@media screen and (max-width: 5px) {
+  #inputdec {
+    margin-top: -1000%;
+  }
+}
+
+.material-symbols-outlined {
+  /* color: #b9b6b6; */
+  color: black;
+
+  /* width: 100%; */
+  /* margin-right: 90px; */
+}
+.jk {
+  margin-top: -4px;
+}
