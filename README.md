@@ -21,15 +21,15 @@ Netlify Link :- https://zoomcar-clone-vanilla-js.netlify.app/
 
 ### Home page
 <image src="./z1.png">
+    
+### Login page
+
+<image src="./z2.png">
 
 ### Product Page
 
-<image src="https://drive.google.com/file/d/1gTv5zFC_9lku4tHQyWGVPibz6XTzOF8X/view?usp=share_link">
-
-### Login page
-
-<image src="https://drive.google.com/file/d/1JL-xb0_hOneMPfaQayANkKh9RpxvXjSC/view?usp=share_link">
+<image src="./z3.png">
 
 ### Products detail
 
-<image src="https://drive.google.com/file/d/1wkUvT0eXyQh6Tv13i5TJSIrkeTAIfDpR/view?usp=share_link">
+<image src="./z4.png">
